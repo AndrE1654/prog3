@@ -11,14 +11,14 @@
   i.   id (PRIMARY KEY, INTEGER)<br>
   ii.  type_name (TEXT, UNIQUE) - Назва типу події (наприклад, "Login Success", "Login Failed", "Port Scan Detected", "Malware Alert")<br>
   iii. severity (TEXT) - Серйозність типу події (наприклад, "Informational", "Warning", "Critical")<br>
- c. SecurityEvents (ПодіїБезпеки):<br><br>
-  i.   id (PRIMARY KEY, INTEGER)<br>
-  ii.  timestamp (DATETIME) - Час події<br>
-  iii. source_id (INTEGER, FOREIGN KEY до EventSources.id)<br>
-  iv.  event_type_id (INTEGER, FOREIGN KEY до EventTypes.id)<br>
-  v.   message (TEXT) - Повний текст логу/повідомлення<br>
-  vi.  ip_address (TEXT, NULLABLE) - IP-адреса, пов'язана з подією (якщо є)<br>
-  vvi. username (TEXT, NULLABLE) - Ім'я користувача, пов'язане з подією (якщо є)<br>
+ c. SecurityEvents (ПодіїБезпеки):<br>
+  <br>i.   id (PRIMARY KEY, INTEGER)<br>
+  <br>ii.  timestamp (DATETIME) - Час події<br>
+  <br>iii. source_id (INTEGER, FOREIGN KEY до EventSources.id)<br>
+ <br> iv.  event_type_id (INTEGER, FOREIGN KEY до EventTypes.id)<br>
+ <br> v.   message (TEXT) - Повний текст логу/повідомлення<br>
+ <br> vi.  ip_address (TEXT, NULLABLE) - IP-адреса, пов'язана з подією (якщо є)<br>
+ <br>vvi. username (TEXT, NULLABLE) - Ім'я користувача, пов'язане з подією (якщо є)<br>
 2. Внесіть наступні дані до таблиці EventTypes:<br>
 
 Event type_name
