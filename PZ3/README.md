@@ -11,7 +11,7 @@
   i.   id (PRIMARY KEY, INTEGER)<br>
   ii.  type_name (TEXT, UNIQUE) - Назва типу події (наприклад, "Login Success", "Login Failed", "Port Scan Detected", "Malware Alert")<br>
   iii. severity (TEXT) - Серйозність типу події (наприклад, "Informational", "Warning", "Critical")<br>
- c. SecurityEvents (ПодіїБезпеки):<br>
+ c. SecurityEvents (ПодіїБезпеки):<br><br>
   i.   id (PRIMARY KEY, INTEGER)<br>
   ii.  timestamp (DATETIME) - Час події<br>
   iii. source_id (INTEGER, FOREIGN KEY до EventSources.id)<br>
