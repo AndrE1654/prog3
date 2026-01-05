@@ -21,16 +21,12 @@ iii. source_id (INTEGER, FOREIGN KEY до EventSources.id)<br>
 vvi. username (TEXT, NULLABLE) - Ім'я користувача, пов'язане з подією (якщо є)<br>
 2. Внесіть наступні дані до таблиці EventTypes:<br>
 
-Event type_name
-Event severity
-Login Success
-Informational
-Login Failed
-Warning
-Port Scan Detected
-Warning
-Malware Alert
-Critical
+| Event type name       | Event severity |
+|-----------------------|----------------|
+| Login Success         | Informational  |
+| Login Failed          | Warning        |
+| Port Scan Detected    | Warning        |
+| Malware Alert         | Critical       |
 
  
 3. Внесіть декілька тестових значень у таблицю EventSources та  10+ тестових значеньдо таблиці SecurityEvents <br>
