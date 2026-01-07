@@ -10,3 +10,5 @@
 
 ## Рішення
 - [Task3.py](Task3.py)
+## Результат виконання Task3 зберігається у файлі
+- [allowed_ips_report.txt](allowed_ips_report.txt)
