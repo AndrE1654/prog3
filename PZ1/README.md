@@ -42,4 +42,6 @@ d. Функції запиту даних:<br>
 
 
 ## Рішення
-- [task1.py](task1.py)
+- [main.py](main.py)
+## database
+- [security_events.db](security_events.db)
