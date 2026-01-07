@@ -173,8 +173,9 @@ def main():
         print(row)
 
     conn.close()
-    print("\nГотово ✅")
+    print("\nГотово ")
 
 if __name__ == "__main__":
     main()
+
 
