@@ -7,6 +7,6 @@
 [Easy] Отримати курс валют із сайту НБУ за попередній тиждень з використанням python-бібліотеки requests<br> - [request.py](request.py)
 
 
-[Easy-Medium] Побудувати графік зміни курсів валют за допомогою бібліотеки matplotlib- [task1.py](task1.py)
+[Easy-Medium] Побудувати графік зміни курсів валют за допомогою бібліотеки matplotlib- [graph.py](graph.py)
 
 
